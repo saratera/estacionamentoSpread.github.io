@@ -1,0 +1,19 @@
+.areaDados{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+input, button {
+    margin: 20px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+table{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+td{
+    margin-left:  20px;
+}

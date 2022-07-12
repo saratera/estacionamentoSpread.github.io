@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./cssReset.css">
+    <link rel="stylesheet" href="./style.css">
+   
+    <title>Estacionamento</title>
+</head>
+<body>
+    <div class="areaDados">
+        <input 
+            type="text" 
+            name="nomeVeiculo" 
+            id="nomeVeiculo"
+            data-nomeVeiculo
+            placeholder="Nome do Veículo"
+            autocomplete="off"
+        >
+        <input 
+            type="text" 
+            name="placaVeiculo" 
+            id="placaVeiculo"
+            data-placaVeiculo
+            placeholder="Placa do Veículo"
+            autocomplete="off"
+        >
+        <button id ='cadastraVeiculo' data-cadastrarVeiculo> Cadastrar Veículo</button>
+    </div>    
+    <table>
+        <thead>
+            <tr>Nome</tr>
+            <tr>Placa</tr>
+            <tr>Entrda</tr>
+            <tr>ações</tr>
+        </thead>
+
+        <tbody id="patio" data-patio></tbody>
+    </table>
+    <script src="./script.js"></script>
+</body>
+</html>
